@@ -1,0 +1,24 @@
+{
+  "name": "event-match",
+  "version": "0.0.0",
+  "description": "A web service to match events by time and location.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.11.2",
+    "body-parser": "~1.11.0",
+    "q": "~1.1.2",
+    "geolib": "~2.0.14",
+    "node-uuid": "~1.4.2"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "mocha": "~2.1.0",
+    "chai-subset": "~0.3.0",
+    "chai-as-promised": "~4.1.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Troy Deck",
+  "license": "BSD-2-Clause"
+}
